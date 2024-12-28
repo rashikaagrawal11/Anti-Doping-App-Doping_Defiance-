@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_query_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Icon and Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:contentDescription="Contact Icon"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT US"
+            android:textSize="20sp"
+            android:textColor="#990011"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Mobile Input with Dropdown -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <!-- Country Code Dropdown -->
+        <Spinner
+            android:id="@+id/countryCodeSpinner"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Mobile Number Input -->
+        <EditText
+            android:id="@+id/mobileInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Mobile"
+            android:padding="12dp"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Message Input -->
+    <EditText
+        android:id="@+id/commentInput"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Complaint"
+        android:padding="12dp"
+        android:gravity="top"
+        android:layout_marginBottom="16dp"
+        android:inputType="textMultiLine" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:backgroundTint="#990011"
+        android:text="SUBMIT"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>
