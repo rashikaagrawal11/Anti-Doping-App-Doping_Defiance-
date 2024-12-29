@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_arrow_drop_up_24"
+            android:title="Home"/>
+        <item android:id="@+id/AboutUs"
+            android:icon="@drawable/baseline_arrow_drop_up_24"
+            android:title="About Us"/>
+        <item android:id="@+id/Engage"
+            android:icon="@drawable/baseline_arrow_drop_up_24"
+            android:title="Engage with us"/>
+        <item android:id="@+id/news"
+            android:icon="@drawable/baseline_arrow_drop_up_24"
+            android:title="News"/>
+        <item android:id="@+id/quiz"
+            android:icon="@drawable/baseline_arrow_drop_up_24"
+            android:title="Quiz and Survey"/>
+        <item android:id="@+id/podcast"
+            android:icon="@drawable/baseline_arrow_drop_up_24"
+            android:title="Podcast"/>
+        <item android:id="@+id/Community"
+            android:icon="@drawable/baseline_arrow_drop_up_24"
+            android:title="Community"/>
+        <item android:id="@+id/Healthcare"
+            android:icon="@drawable/baseline_arrow_drop_up_24"
+            android:title="Healthcare"/>
+    </group>
+
+    <item android:title="anti-doping">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/dopingmenu"
+                    android:icon="@drawable/baseline_arrow_drop_up_24"
+                    android:title="Doping Process"/>
+            </group>
+        </menu>
+    </item>
+</menu>
