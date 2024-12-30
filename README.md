@@ -78,4 +78,3 @@ The "Report an Athlete" feature allows users to report unethical behavior or vio
 <img src="https://github.com/user-attachments/assets/fc1c9a9d-4cc5-4491-bc46-8654656a68aa" alt="WhatsApp Image" width="300" height="600" />
 
 
-Replace `path/to/imageX.jpeg` with the actual file paths or URLs for the respective images once uploaded to your repository.
